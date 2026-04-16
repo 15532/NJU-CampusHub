@@ -1,0 +1,23 @@
+# ========================
+# 前端 (React/Taro/Node)
+# ========================
+node_modules/
+dist/
+.temp/
+.npm/
+.yarn/
+*.log
+
+# ========================
+# 后端 (Java/Spring Boot)
+# ========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
